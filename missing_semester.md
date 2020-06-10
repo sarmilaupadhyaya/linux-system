@@ -145,7 +145,7 @@ We'll be viewing system log of my local system to extract users who have been en
 
 2. using sed programming language to remove or replace the strings.
 	```
-	cat sshlog.log | sed 's/.*Disconnected from//'
+	cat ssh.log | sed 's/.*Disconnected from//'
 
 	```
 	what does .* means. Its a regex pattern. dot means single character and * means zero or any number of single characters.
